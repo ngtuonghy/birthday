@@ -42,7 +42,7 @@ canvas {
   position: absolute;
   text-align: center;
   color: rebeccapurple;
-  font-family: "Righteous", cursive;
+  font-family: "Righteous", Arial, sans-serif;
   font-size: 93px;
   letter-spacing: 10px;
   text-shadow: 2px 4px 11px rgb(0 0 0 / 28%);

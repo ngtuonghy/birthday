@@ -58,7 +58,7 @@ function detectBlow() {
     isRunning = true;
     console.log("Phát hiện thổi vào microphone");
     title.textContent = "Happy Birthday!";
-    btn.innerText = "Thổi tiếp nào";
+    btn.innerText = "Blow again!";
     btn.style.display = "block";
     stopBlowCandles();
   }
@@ -69,6 +69,6 @@ btn.style.display = "none";
 btn.addEventListener("click", function () {
   blowCandles();
   btn.style.display = "none";
-  title.textContent = "Thổi vào đây!";
+  title.textContent = "Blow!";
   isRunning = false;
 });
